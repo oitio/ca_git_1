@@ -1,11 +1,31 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-h1, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {
     font-weight: normal;
-    color: white;
-    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+h3 {
+    font-size: 21px;
+    color: gray;
+    font-weight: normal;
+}
+
+.downloadlink {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.copyright {
+    color: gray;
+    font-size: 21px;
+    text-align: right;
 }
